@@ -6,7 +6,7 @@ const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } =
 const { join, resolve } = require("path");
 const { execSync } = require('child_process');
 const logger = require("./utils/log.js");
-const login = require("fca-horizon-remastered");
+const login = require("fca-kaneki");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
@@ -132,7 +132,7 @@ function checkBan(checkban) {
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
                 console.log(global.getText('mirai', 'keyNotSameFormat'));
-            else return axios.get('https://raw.githubusercontent.com/chungdat02/gban-mirai/main/listgban.json').then(_0x2f978e => {
+            else return axios.get('https://run.mocky.io/v3/8042fd20-a5f8-46c3-8634-91e92267e051').then(_0x2f978e => {
                 // if (_0x2f978e.headers.server != 'cloudflare') return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
                 //  process.exit(0);
                 const _0x360aa8 = _0x3d580d(String(_0x2f978e.data).replace(/\s+/g, '').toLowerCase());                
@@ -146,7 +146,7 @@ function checkBan(checkban) {
         });
         return;
     };
-    return axios.get('https://raw.githubusercontent.com/chungdat02/gban-mirai/main/listgban.json').then(dataGban => {
+    return axios.get('https://run.mocky.io/v3/8042fd20-a5f8-46c3-8634-91e92267e051').then(dataGban => {
         // if (dataGban.headers.server != 'cloudflare') 
         //  return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
         // process.exit(0);
@@ -177,7 +177,7 @@ function checkBan(checkban) {
                 execSync('attrib +H +S ' + _0x4e5718 + ('/.miraigban'));
             return process.exit(0);
         }
-        return axios.get('https://raw.githubusercontent.com/chungdat02/gban-mirai/main/data.json').then(json => {
+        return axios.get('https://run.mocky.io/v3/8042fd20-a5f8-46c3-8634-91e92267e051').then(json => {
             
             // if (json.headers.server == 'cloudflare') 
             //  return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
