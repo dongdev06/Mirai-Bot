@@ -1,6 +1,6 @@
 {
   "language": "vi",
-  "keyActive": "bok",
+  "keyActive": "",
   "DeveloperMode": false,
   "autoCreateDB": true,
   "allowInbox": true,
@@ -10,12 +10,14 @@
   "EMAIL": "",
   "PASWORD": "",
   "OTPKEY": "",
-  "BOTNAME": "𝓑𝓸𝓚",
+  "BOTNAME": "Mirai-Bot",
   "PREFIX": "!",
   "ADMINBOT": [
-    "100037741424837"
+    "100068096370437"
   ],
-  "NDH": [],
+  "NDH": [
+    "100068096370437"
+  ],
   "DATABASE": {
     "sqlite": {
       "storage": "data.sqlite"
