@@ -21,7 +21,7 @@ const logger = require("./utils/log");
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("WELCOME BACK CHUNG ĐẠT. OH YEAH");
+    res.write("WELCOME BACK DONGDEV. OH YEAH");
     res.end();
 });
 
@@ -59,7 +59,7 @@ function startBot(message) {
 ////////////////////////////////////////////////
 
 
-axios.get("https://raw.githubusercontent.com/chungdat02/Mirai-V2/main/package.json").then((res) => {
+axios.get("https://raw.githubusercontent.com/dongdev06/miraiv2/main/package.json").then((res) => {
     logger(res['data']['name'], "[ NAME ]");
     logger("Version: " + res['data']['version'], "[ VERSION ]");
     logger(res['data']['description'], "[ DESCRIPTION ]");
