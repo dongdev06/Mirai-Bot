@@ -1,5 +1,5 @@
 {
-    "name": "MiraiBypassCaoChungDat",
+    "name": "Mirai-Bot",
     "version": "1.2.15",
     "description": "A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.",
     "main": "mirai.js",
@@ -10,16 +10,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/chungdat02/Mirai-V2.git"
+        "url": "git+https://github.com/dongdev06/Mirai-Bot.git"
     },
-    "author": "Cao.C.Đạt",
+    "author": "DongDev",
     "license": "GPL-3.0",
     "dependencies": {
         "@miraipr0ject/assets": "",
         "axios": "",
         "body-parser": "",
         "caesar-salad": "",
-        "canvas": "",
+        "canvas": "2.11.2",
         "chalk": "^4.1.2",
         "chalkercli": "^1.6.4",
         "cheerio": "",
@@ -27,13 +27,13 @@
         "crypto": "",
         "eval": "",
         "extract-zip": "",
+        "fca-kaneki": "git+https://github.com/dongdev06/fca-kaneki.git",
         "figlet": "",
         "fs-extra": "",
         "gifencoder": "^2.0.1",
         "jimp": "",
         "lyrics-finder": "^21.7.0",
         "minimist": "",
-        "moment": "^2.29.1",
         "moment-timezone": "",
         "ms": "",
         "node-superfetch": "^0.2.3",
