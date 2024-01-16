@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.bold.hex("#66FF00")('» •CHUNGDAT• « ') + data);
+			console.log(chalk.bold.hex("#66FF00")('» • MIRAI-BOT • « ') + data);
 			break;
 		case "error":
-			console.log(chalk.bold.hex("#FF0000")('» •CHUNGDAT• « ') + data);
+			console.log(chalk.bold.hex("#FF0000")('» • MIRAI-BOT • « ') + data);
 			break;
 		default:
-			console.log(chalk.bold.hex("#3399CC")('» •CHUNGDAT• « ') + data);
+			console.log(chalk.bold.hex("#3399CC")('» • MIRAI-BOT • « ') + data);
 			break;
 	}
 }
